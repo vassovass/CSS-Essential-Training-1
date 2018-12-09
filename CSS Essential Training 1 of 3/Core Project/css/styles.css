@@ -1,0 +1,115 @@
+/* Color Palette - temporary comment to make copy paste easier
+#220c10 - Licorice (faded black..?)     | #2B2d42 Dark Blue
+#77b2f4 - Fresh Sky Blue                | #8D99AE - Light Blue
+#506c64 - Storm Cloud (Dark Army Green) | #EDF2F4 - Blue/White
+#77cbb9 - Pearl Aqua                    | #EF233C - Red
+*/
+
+
+/* Global styles
+------------------------------------*/
+html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  margin:0; /* gets rid of default margin around whole page */
+}
+.content-wrap {
+  max-width:950px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: auto;
+}
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight:900;
+}
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top:0;
+}
+a {
+  color: lightpink;
+}
+a:hover {
+  text-decoration:none;
+}
+
+main {
+  clear:both;
+}
+
+.col-narrow {
+  width:30%;
+  float: left;
+  /* clear:left; */   /*this seems to work yet not used in video */
+  min-height: 165px;
+}
+
+.col-wide {
+  width:70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 165px;
+}
+
+/* Header and Footer
+------------------------------------*/
+
+header, footer {
+  background-color:grey;
+  color:white;
+}
+/* header */
+.main-profile-img {
+  border-radius: 50%;
+}
+header {
+
+}
+
+header h1,
+header h2 {
+  color:;
+  margin:0;
+}
+
+/* footer */
+footer {
+  text-align:center;
+}
+
+.contact-info-padding a{
+  padding:15px;
+  display:inline-block;
+}
+
+
+
+
+
+
+/* Work Experience
+------------------------------------*/
+.work {
+  background-color: #77b2f4;
+}
+
+
+/* Education
+------------------------------------*/
+
+.education {
+  background-color: #506c64;
+}
