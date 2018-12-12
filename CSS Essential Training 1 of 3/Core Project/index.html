@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Lato:900|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Vasso Vassiliades | Resume</title>
 </head>
 <body role="main">
     <!-- // Intro -->
-    <header>
+    <header id="about">
+      <nav role="navigation" class="main-menu">
+        <a href="#about">About</a>
+        <a href="#work-experience">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
       <div class="content-wrap"> <!--content wrap so background goes across page-->
         <img src="images/vasso-323x323.jpg" alt="Vasso Vassiliades Picture" class="main-profile-img col-narrow">
         <div class="col-wide">
@@ -21,20 +27,20 @@
           <p>I then decided to take an opportunity to get big adency experience as an Account Director for Clicks2Customers (Now NMPi). I did this for a year and a half and then moved to Mauritius with my wife for her career prospects and did remote working there. </p>
           <p>I worked for a few agencies during that time and then moved back to Cape Town to work exlusively for Ruby Digital as a SEO Analyst</p>
         </div>
-     </div>
+    </div>
     </header>
 
     <main>
         <!-- // Work Experience -->
-        <section class="work">
+        <section class="work" id="work-experience">
           <div class="content-wrap"> <!--content wrap so background goes across page-->
             <h2>Work Experience</h2>
 
             <!-- Job Details 1: copy this whole block to add more jobs -->
             <div class="col-narrow">
               <h3>SEO Analyst & Implentation Specialist</h3>
-              <p>Ruby Digital</p>
-              <p>2016 - CURRENT</p>
+              <p class="uppercase">Ruby Digital</p>
+              <p>2016 - Current</p>
             </div>
             <!-- Add as many paragraphs as you need. -->
             <!-- This list can be deleted if you don't want to use it. -->
@@ -57,9 +63,9 @@
 
             <!-- Job Details 2: copy this whole block to add more jobs -->
             <div class="col-narrow">
-              <h3>SEO Analyst & Implentation Specialist</h3>
-              <p>Ruby Digital</p>
-              <p>2016 - CURRENT</p>
+              <h3>SEO Implentation $ Analyst Specialist</h3>
+              <p class="uppercase">Ruby Digital</p>
+              <p>2016 - Current</p>
             </div>
             <!-- Add as many paragraphs as you need. -->
             <div class="col-wide">
@@ -76,28 +82,47 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section class="education" id="education">
           <div class="content-wrap"><!--content wrap so background goes across page-->
             <h2>Education</h2>
 
             <!-- School details: copy this whole block to add more schools. -->
-            <h3>University of Cape Town, 2007</h3>
+            <h3>1University of Cape Town, 2007</h3>
             <p>B.SC Property Studies <span class="special">(Hons)</span></p>
 
             <!-- Add as many paragraphs as you need. -->
             <p>Summary.</p>
+
+            <h3>2University of Cape Town, 2007</h3>
+            <p>B.SC Property Studies <span class="special">(Hons)</span></p>
+
+            <!-- Add as many paragraphs as you need. -->
+            <p>Summary.</p>
+
+            <h3>3University of Cape Town, 2007</h3>
+            <p>B.SC Property Studies <span class="special">(Hons)</span></p>
+
+            <!-- Add as many paragraphs as you need. -->
+            <p>Summary.</p>
+
+            <h3>4University of Cape Town, 2007</h3>
+            <p>B.SC Property Studies <span class="special">(Hons)</span></p>
+
+            <!-- Add as many paragraphs as you need. -->
+            <p>Summary.</p>
+
             <!-- End of school details. -->
           </div>
         </section>
     </main>
 
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="footer">
       <div class="content-wrap"><!--content wrap so background goes across page-->
         <h2>Let's Keep in Touch!</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
-        <div class="contact-info-padding">
+        <div class="contact-info-padding" id="contact">
             <a href="mailto:email@example.com">email@example.com</a>
             <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a>
             <a href="http://twitter.com/thevaseo" target="_blank">Twitter</a>

@@ -39,6 +39,10 @@ h2 {
   font-size: 30px;
   margin-top:0;
 }
+
+h3 {
+  margin: 0;
+}
 a {
   color: lightpink;
 }
@@ -50,19 +54,10 @@ main {
   clear:both;
 }
 
-.col-narrow {
-  width:30%;
-  float: left;
-  /* clear:left; */   /*this seems to work yet not used in video */
-  min-height: 165px;
+.uppercase {
+  text-transform:uppercase;
 }
 
-.col-wide {
-  width:70%;
-  float: left;
-  padding-left: 20px;
-  min-height: 165px;
-}
 
 /* Header and Footer
 ------------------------------------*/
@@ -95,9 +90,27 @@ footer {
   display:inline-block;
 }
 
+/* CSS Combinator testing*/
+/* h2 + div + p {
+  border:5px solid Red;
+}
 
+  h2 ~ p {
+    border:5px solid purple;
+  } */
 
-
+  /* Navigation
+  ------------------------------------*/
+nav {
+  text-align:center;
+}
+nav a{
+  display:inline-block;
+  padding: 10px 25px;
+  border: 1px dotted black;
+  text-transform: uppercase;
+  font-weight:bolder;
+}
 
 
 /* Work Experience
@@ -106,10 +119,36 @@ footer {
   background-color: #77b2f4;
 }
 
+.col-narrow {
+  width:30%;
+  float: left;
+  /* clear:left; */   /*this seems to work yet not used in video */
+  min-height: 165px;
+  margin-bottom: 10px;
+}
 
+h3 ~ p {
+  margin:0;
+
+}
+
+.col-wide {
+  width:70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 165px;
+  margin-bottom: 10px;
+}
+.col-wide ul {
+  margin:0;
+}
 /* Education
 ------------------------------------*/
 
 .education {
   background-color: #506c64;
+}
+
+.education p + h3 {
+  margin-top: 10px;
 }
