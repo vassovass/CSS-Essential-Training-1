@@ -75,11 +75,11 @@ header {
     position: relative;
 }
 
-header h1,
+/* header h1,
 header h2 {
   color:;
   margin:0;
-}
+} */
 
 /* footer */
 footer {
@@ -124,20 +124,20 @@ footer {
 
   /* Navigation
   ------------------------------------*/
-nav {
-  text-align:center;
-  background: white;
-  position: fixed;
-  top: 0;
-  /* width:100%; */
-  right: 0;
-  left:0;
-}
+
 nav a{
   display: inline-block;
   padding: 15px 20px;
   text-transform: uppercase;
   font-weight:bolder;
+}
+  nav {
+    position: sticky;
+    text-align:center;
+    background: white;
+    top: 10px;
+    /* width:100%; */
+    right: 10px;
 }
 
 /* Work Experience
