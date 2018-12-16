@@ -105,6 +105,10 @@ footer {
   display:inline-block;
 }
 
+.social-icon:hover {
+  font-size: 2em;
+}
+
 /* CSS Combinator testing*/
 /* h2 + div + p {
   border:5px solid Red;
@@ -165,7 +169,11 @@ h3 ~ p {
 ------------------------------------*/
 
 .education {
-  background-color: #506c64;
+  /* background-color: rgb(156, 171, 207); */
+  background: linear-gradient(rgba(156, 171, 207, 0.8), rgba(156, 171, 207, 0.5)),
+              url(../images/education-background.jpg) no-repeat fixed;
+  background-size: cover;
+
 }
 
 .education p + h3 {
