@@ -72,7 +72,7 @@ header, footer {
   border-radius: 50%;
 }
 header {
-
+    position: relative;
 }
 
 header h1,
@@ -101,9 +101,10 @@ footer {
   padding:10px;
   text-transform: uppercase;
   font-weight:600;
-  position:relative;
-  float:right;
-  text-align: right;
+  position:absolute;
+  /* float:right; */
+  right: 0;
+  bottom: 0;
 }
 .dload:hover {
   background: #EF5237;
